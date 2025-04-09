@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="15" failures="0" errors="0" time="0.332">
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2025-04-09T01:07:55" time="0.291" tests="15">
+    <testcase classname=" adds 2 + 3 to equal 5" name=" adds 2 + 3 to equal 5" time="0.002">
+    </testcase>
+    <testcase classname=" adds 2 + 3 to not equal 4" name=" adds 2 + 3 to not equal 4" time="0.001">
+    </testcase>
+    <testcase classname=" subtracts -5 - 3 to equal -8" name=" subtracts -5 - 3 to equal -8" time="0.001">
+    </testcase>
+    <testcase classname=" subtracts 7 - 3 to not equal 5" name=" subtracts 7 - 3 to not equal 5" time="0">
+    </testcase>
+    <testcase classname=" divides 10 / 2 to equal 5" name=" divides 10 / 2 to equal 5" time="0">
+    </testcase>
+    <testcase classname=" multiplies 4 * 3 to equal 12" name=" multiplies 4 * 3 to equal 12" time="0.001">
+    </testcase>
+    <testcase classname=" multiplies -4 * 3 to equal -12" name=" multiplies -4 * 3 to equal -12" time="0">
+    </testcase>
+    <testcase classname=" multiplies 0 * 5 to equal 0" name=" multiplies 0 * 5 to equal 0" time="0.001">
+    </testcase>
+    <testcase classname=" multiplies -5 * -3 to equal 15" name=" multiplies -5 * -3 to equal 15" time="0">
+    </testcase>
+    <testcase classname=" multiplies 2.5 * 4 to equal 10" name=" multiplies 2.5 * 4 to equal 10" time="0">
+    </testcase>
+    <testcase classname=" divides 10 / 2 to not equal 4" name=" divides 10 / 2 to not equal 4" time="0.001">
+    </testcase>
+    <testcase classname=" divides 7 / 2 to equal 3.5" name=" divides 7 / 2 to equal 3.5" time="0">
+    </testcase>
+    <testcase classname=" divides -6 / 3 to equal -2" name=" divides -6 / 3 to equal -2" time="0.001">
+    </testcase>
+    <testcase classname=" divides by zero to throw error" name=" divides by zero to throw error" time="0.007">
+    </testcase>
+    <testcase classname=" adds decimal numbers with precision" name=" adds decimal numbers with precision" time="0.001">
+    </testcase>
+  </testsuite>
+</testsuites>
