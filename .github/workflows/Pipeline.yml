@@ -74,6 +74,18 @@ jobs:
     runs-on: ubuntu-latest
  
     steps:
-      - uses: actions/checkout@v4
-      - name: Notification
-        run: sh scripts/shell.sh
+      - name: Send mail
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          username: ${{SECRETS.EMAIL}}
+          password: ${{SECRETS.PASSWORD}}
+          subject: Opportunity for you
+          to: adson.santos.dev@gmail.com
+          from: Adson Santos
+          body: Build job of ${{github.repository}} runing!
+          secure: true
+          ignore_cert: true
+          convert_markdown: true
+          priority: low
